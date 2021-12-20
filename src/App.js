@@ -1,69 +1,80 @@
 import { useState } from 'react'
 import './App.css';
 import Game from './Components/Game'
+import Beth from './images/Beth_Smith.png'
+import Jerry from './images/Jerry_Smith.png'
+import Meeseeks from './images/MeeseeksHQ.png'
+import Morty from './images/Morty_Smith.jpeg'
+import MrPoopy from './images/Mr_poopy_butthole.png'
+import Bird from './images/NewBirdPerson.jpeg'
+import Pickle from './images/Pickle_rick_transparent_edgetrimmed.png'
+import Rick from './images/Rick_Sanchez.png'
+import Scroopy from './images/Scroopy.jpeg'
+import Snuffles from './images/Snuffles-helmet.jpeg'
+import Squanchy from './images/Squanchy_.png'
+import Summer from './images/Summer_is_cool.jpeg'
 
 function App() {
   const [images, setImages] = useState([{
     id: 1,
     sortorder: 1,
     charname: 'Beth Smith',
-    src: '../images/Beth_Smith.png'
+    src: Beth
 }, {
   id: 2,
   sortorder: 2,
   charname: 'Jerry Smith',
-  src: '../images/Jerry_Smith.png'
+  src: Jerry
 }, {
   id: 3,
   sortorder: 3,
   charname: 'Mr Meeseeks',
-  src: '../images/MeeseeksHQ.png'
+  src: Meeseeks
 },{
   id: 4,
   sortorder: 4,
   charname: 'Morty Smith',
-  src: '../images/Morty_Smith.jpeg'
-
+  src: Morty
 },{
   id: 5,
   sortorder: 5,
   charname: 'Mr Poopy Butthole',
-  src: '../images/Mr_poopy_butthole.png'
+  src: MrPoopy
 },{
   id: 6,
   sortorder: 6,
   charname: 'Birdman',
-  src: '../images/NewBirdPerson.jpeg'
+  src: Bird
 },{
   id: 7,
   sortorder: 7,
   charname: 'Pickle Rick',
-  src: '../images/Pickle_rick_transparent_edgetrimmed.png'
+  src: Pickle
 },{
   id: 8,
   sortorder: 8,
   charname: 'Scroopy',
-  src: '../images/Scroopy.jpeg'
+  src: Scroopy
 },{
   id: 9,
   sortorder: 9,
   charname: 'Snuffles',
-  src: '../images/Snuffles-helmet.jpeg'
+  src: Snuffles
 },{
   id: 10,
   sortorder: 10,
   charname: 'Squanchy',
-  src: '../images/Squanchy_.png'
+  src: Squanchy
 },{
   id: 11,
   sortorder: 11,
   charname: 'Rick Sanchez',
-  src: '../images/Rick_Sanchez.png'
+  src: Rick
 },{
   id: 12,
   sortorder: 12,
   charname: 'Summer Smith',
-  src: '../images/Summer_is_cool.jpeg'
+  src: Summer
 }]);
 
 const [scores, setScore] = useState({
